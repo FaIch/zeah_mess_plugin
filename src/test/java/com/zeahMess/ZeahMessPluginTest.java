@@ -1,13 +1,13 @@
-package com.example;
+package com.zeahMess;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class ZeahMessPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(ZeahMessPlugin.class);
 		RuneLite.main(args);
 	}
 }
